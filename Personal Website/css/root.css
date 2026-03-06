@@ -1,0 +1,42 @@
+:root {
+  /* Primary color: Header, background, buttons, links, and highlights */
+   --primary-color: #0B3C5D;     /* Deep Ocean Blue */
+
+  /* Secondary color: Hover states, icons, section accents, and subheadings*/
+
+  --secondary-color: #1CA7EC;   /* Sky Blue */
+
+  /* Background color: Page background, large sections*/
+
+  --background-color: #F9FAFB;  /* Soft Off-White */
+  
+  /* card background  service cards and pricing box*/
+  --card-color: rgb(255, 255, 255);
+
+  /* Front primary: headings and main body text */
+  --primary-text: #1F2933;         /* Charcoal */
+
+  /* Text-muted: Paragraphs and small description */
+  --text-muted: rgb(110, 110, 110);
+
+  /* Front size */
+    --primary-font-size: 1.2rem; 
+  /* Font heads: Poppins */
+
+  --font-heading: ;
+
+  /* Accesnt: CTA. Get started buttons, call to action hightlights */
+   --accent-color: #F4EBD0;      /* Warm Sand */
+
+
+
+
+  
+ 
+  
+ 
+  
+  
+
+}
+
