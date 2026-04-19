@@ -64,7 +64,8 @@ section {
 }
 
 .nav-logo {
-  height: 40px;
+  height: 65px;
+  width: 65px;
 }
 
 nav {
@@ -89,8 +90,8 @@ nav li {
 
 
 nav img {
-  width:50px;
-  height: 50px;
+  width:70px;
+  height: 70px;
   border-radius: 3px;
 }
 
@@ -419,6 +420,33 @@ nav img {
   box-shadow: 0 2px 0 reba(0, 0, 0, 0.03);
   box-shadow: 0 2px 0 rgba(12, 11, 11, 0.3);
   border-radius: 3px;
+}
+
+/* Problem section */
+
+.problem-section {
+    padding: 80px 20px;
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+}
+
+.problem-section h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.problem-text {
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.solution-text {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 
 /* services section */

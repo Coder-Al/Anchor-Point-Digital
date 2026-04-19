@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor Point Digital</title>
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/form.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+
+<body>
+    <header>
+        <!-- Logo plus quick links -->
+        <nav class="nav-bar">
+            <div class="nav-container">
+                <a href="../index.html" #home><img src="../images/AnchorDigital.png" alt="Anchor point digital Logo" /></a>
+                <!-- desktop Menu -->
+
+                <ul class="nav-links">
+                    <li><a href="../index.html#home">Home</a></li>
+                    <li><a href="../index.html#services">Services</a></li>
+                    <li><a href="../index.html#addons">Add Ons</a></li>
+                    <li><a href="../index.html#why-us">About</a></li>
+                    <li><a href="../index.html#how-it-works"> How It Works</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+
+                <!-- Mobile humburger ☰</button> -->
+            <button class="menu-toggle">☰</button>
+            </div>
+            
+
+            <ul class="dropdown-menu">
+                <li class="menu-logo">
+                    <img src="../images/AnchorDigital.png" alt="Anchor Point Digital Logo"/>
+                </li>
+            
+           <!-- Mobile dropdown menu -->
+                    <li><a href="../index.html#home">Home</a></li>
+                    <li><a href="../index.html#services">Services</a></li>
+                    <li><a href="../index.html#addons">Add Ons</a></li>
+                    <li><a href="../index.html#why-us">About</a></li>
+                    <li><a href="../index.html#how-it-works">How It Works</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li> 
+                </ul>
+           
+                <!-- overlay -->
+            <div class="overlay"></div>
+        </nav>
+    </header>
+
+        <section id="home" class="hero">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <!-- headline, subheadline, CTA -->
+                    <h1><span class="highlight">Stop Being Invisible Online.</span> <br/>Be Found. Be Booked. Be Busy.</h1>
+
+                    <p>Our mission is to help Bahamian small businesses build a strong online presence that makes them easy to find, easy to trust, and easy to contact.</p>
+
+                    <div class="hero-buttons">
+                        <a href="#" class="btn-primary">Get Started</a>
+                        <a href="./projects.html" class="btn-secondary">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="book-now">
+
+      <div class="book-now-container">
+
+        <h2 id="contact-form">Get More Customers For Your Business</h2>
+
+        <p>
+          <p>
+            Fill out the form below and we'll show you how to get more calls, bookings, and customers with a professional website.
+</p>
+        </p>
+
+        <p class="form-benefit">
+            ✔ No obligation • ✔ Fast turnaround • ✔ Built for Bahamian businesses
+        </p>
+
+        <form class="booking-form" action="https://formspree.io/f/YOUR_ID" method="POST">
+
+  <input type="hidden" name="_subject" value="New Booking - Anchor-Point-Digital">
+  <input type="hidden" name="_redirect" value="thank-you.html">
+
+  <div class="form-group floating">
+    <input type="text" id="name" name="name" required autocomplete="name" placeholder="Full Name"/>
+    <label for="name">Full Name</label>
+  </div>
+
+  <div class="form-group floating">
+    <input type="email" id="email" name="email" required autocomplete="email" placeholder="Email Address"/>
+    <label for="email">Email Address</label>
+  </div>
+
+  <div class="form-group floating">
+    <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="Phone Number" required/>
+    <label for="phone">Phone Number</label>
+  </div>
+
+  <div class="form-group">
+    <label for="business">Business Type</label>
+    <select id="business" name="business" required>
+      <option value="">Select your business</option>
+      <option value="barber">Barbershop</option>
+      <option value="restaurant">Restaurant</option>
+      <option value="construction">Construction</option>
+      <option value="mechanic">Mechanic</option>
+      <option value="beauty"> Beauty Salon</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="need">What do you need?</label>
+    <select id="need" name="need" required>
+      <option value="">Select a service</option>
+      <option value="new-website">New Website</option>
+      <option value="redesign">Website Redesign</option>
+      <option value="more-customers">Get more customers</option>
+      <option value="booking-system">Online booking</option>
+    </select>
+  </div>
+
+  <div class="form-group floating">
+    <textarea id="message" name="message" rows="4" placeholder="Tell us about your business and what you need"></textarea>
+    <label for="message">Tell us about your business and what you need</label>
+  </div>
+
+  <button type="submit" class="btn btn-primary">
+    Get My Free Quote
+  </button>
+
+  <p class="form-trust">
+    🔒 Your information is 100% secure. We never share your data.
+  </p>
+
+  <p class="alt-contact">
+  Prefer to chat instantly? 
+  <a href="https://wa.me/12428220994">Message us on WhatsApp</a> 
+  or <a href="tel:12428220994">call us directly</a>
+</p>
+</form>
+      </div>
+    </section>
+
+        <footer class="footer">
+
+            <div class="footer-container">
+
+                <!-- Contact information -->
+                <div class="footer-col"> 
+                    <h3>Contact Us</h3>
+
+                    <a href="https://wa.me/12428220994">
+                    <i class="fa-brands fa-whatsapp"></i>WhatsApp Us</a>
+
+                    <a href="mailto:altan_leonce@hotmail.com">
+                    <i class="fa-solid fa-envelope"></i>Send Us An Email</a>  
+                </div>
+
+                <!-- social column -->
+
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                        <p>© 2026 Anchor Point Digital. All rights reserved.</p>
+                    </div>
+            </div>
+        </footer>  
+        <script src="../js/functions.js"></script>
+</body>
+</html>
