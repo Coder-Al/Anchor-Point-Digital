@@ -2,6 +2,8 @@ const toggleBtn = document.querySelector('.menu-toggle');
 const dropdownMenu = document.querySelector('.dropdown-menu');
 const overlay = document.querySelector('.overlay');
 
+// open toggle menu
+
 toggleBtn.addEventListener('click', () => {
   dropdownMenu.classList.toggle('active');
   overlay.classList.toggle('active');

@@ -1,42 +1,43 @@
 :root {
-  /* Primary color: Header, background, buttons, links, and highlights */
-   --primary-color: #0B3C5D;     /* Deep Ocean Blue */
+    /* Primary color: Header, background, buttons, links, and highlights */
+    --primary-color: #0B3C5D;     /* Deep Ocean Blue */
 
-  /* Secondary color: Hover states, icons, section accents, and subheadings*/
+    /* Secondary color: Hover states, icons, section accents, and subheadings */
+    --secondary-color: #1CA7EC;   /* Sky Blue */
 
-  --secondary-color: #1CA7EC;   /* Sky Blue */
+    /* Background color: Page background, large sections */
+    --background-color: #F9FAFB;  /* Soft Off-White */
 
-  /* Background color: Page background, large sections*/
+    /* Card background: service cards and pricing box */
+    --card-color: rgb(255, 255, 255);
 
-  --background-color: #F9FAFB;  /* Soft Off-White */
-  
-  /* card background  service cards and pricing box*/
-  --card-color: rgb(255, 255, 255);
+    /* Front primary: headings and main body text */
+    --primary-text: #1F2933;      /* Charcoal */
 
-  /* Front primary: headings and main body text */
-  --primary-text: #1F2933;         /* Charcoal */
+    /* Text-muted: Paragraphs and small description */
+    --text-muted: rgb(110, 110, 110);
 
-  /* Text-muted: Paragraphs and small description */
-  --text-muted: rgb(110, 110, 110);
+    /* Font size */
+    --primary-font-size: 1.2rem;
 
-  /* Front size */
-    --primary-font-size: 1.2rem; 
-  /* Font heads: Poppins */
+    /* Accent: CTA, Get started buttons, call to action highlights */
+    --accent-color: #F4EBD0;      /* Warm Sand */
 
-  --font-heading: ;
+    /* Additional spacing variables */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+    --spacing-xxl: 6rem;
 
-  /* Accesnt: CTA. Get started buttons, call to action hightlights */
-   --accent-color: #F4EBD0;      /* Warm Sand */
+    /* Border radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
 
-
-
-
-  
- 
-  
- 
-  
-  
-
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.12);
 }
-
